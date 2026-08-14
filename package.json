@@ -1,12 +1,16 @@
 {
-  "name": "arena-auto-v6-ai-backend",
-  "version": "1.0.0",
+  "name": "arena-auto-gpt-v7-backend",
+  "version": "7.0.0",
   "private": true,
-  "description": "Backend mínimo e sem dependências para a IA observadora do Arena Auto V6",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.mjs"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "latest",
+    "openai": "latest"
   }
 }
